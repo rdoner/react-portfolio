@@ -89,6 +89,7 @@
 .avatar-img {
   height: 250px;
   border-radius: 50%;
+  margin-top: 80px;
 }
 
 .banner-text {
@@ -119,7 +120,7 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
@@ -128,4 +129,8 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.skills {
+  text-align: center;
 }

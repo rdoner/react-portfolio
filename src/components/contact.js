@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Paul Hanna</h2>
+            <h2>Ryan Doner</h2>
             <img src="flatironsPortrait.jpg" alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum

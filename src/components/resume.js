@@ -19,7 +19,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{ paddingTop: "2em" }}>Ryan Doner</h2>
-            <h4 style={{ color: "grey" }}>React Developer</h4>
+            <h4 style={{ color: "grey" }}>Fullstack Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               Motivated fullstack web developer with a strong desire to pursue excellence and
@@ -37,11 +37,20 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h2>Skills</h2>
+            <h6 className="skills">
+              HTML/CSS, Javascript, ReactJS, ReactNative, NodeJS, ExpressJS, MongoDB
+            </h6>
+            <hr style={{ borderTop: "3px solid #e22947" }} />
 
+            <h2>Education</h2>
+            <Education startYear={"Sep 2018"} endYear={"Mar 2019"} schoolName="Techtonic Academy">
+              <li>Completed rigorous 6 month web development apprenticeship</li>
+              <li>Team lead for a chore coordination app built using the MERN stack</li>
+            </Education>
             <Education
-              startYear={2011}
-              endYear={2015}
+              startYear={"Aug 2011"}
+              endYear={"May 2015"}
               schoolName="University of Arizona"
               schoolDescription={
                 "Bachelor of Science: Neuroscience and Cognitive Sciences, 2015\nUniversity of Arizona - Tucson\nGPA: 3.78\nGraduate of UofAs McGuire entrepreneurship program"
@@ -52,53 +61,50 @@ class Resume extends Component {
               <li>Graduate of UofA's McGuire entrepreneurship program</li>
             </Education>
 
-            <Education startYear={2018} endYear={2019} schoolName="Techtonic Academy">
-              <li>Completed rigorous 6 month web development apprenticeship</li>
-              <li>Team lead for a chore coordination app built using the MERN stack</li>
-            </Education>
-
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Experience</h2>
-
             <Experience
-              startYear={2017}
-              endYear={2018}
-              jobName="RM3 Labs"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-            >
-              <li>
-                Designed and tested Labware LIMS (Lab Information Management System) to assist in
-                automation of tasks including data analysis and reporting.
-              </li>
-              <li>
-                Crafted lab report templates using SAP Crystal Reports software utilizing both SQL
-                and Excel databases.
-              </li>
-              <li>
-                Programmed LIMS Basic (derivative of Visual Basic) scripts to make calculations from
-                data in SQL databases.
-              </li>
-              <li>
-                Wrote documentation for LIMS software specialized to chemists, biologists, and
-                secretarial staff.
-              </li>
-            </Experience>
-
-            <Experience
-              startYear={2019}
-              endYear={2018}
+              startYear={"Sep 2018"}
+              endYear={"Current"}
               jobName="Techtonic"
-              jobDescription="Software Developer"
+              location={"Boulder, CO"}
+              position="Software Developer"
             >
               <li>Constructed a React-Native front end for a waterpark company</li>
+              <li>Built responsive UI for Android and iOS</li>
+              <li>Performed unit tests using Jest and Enzyme</li>
             </Experience>
-            <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Skills</h2>
-            <Skills skill="javascript" progress={100} />
-            <Skills skill="HTML/CSS" progress={80} />
-            <Skills skill="NodeJS" progress={50} />
-            <Skills skill="React" progress={25} />
+            <Experience
+              position="Software Developer"
+              startYear={"Aug 2017"}
+              endYear={"June 2018"}
+              jobName="RM3 Labs"
+              location={"Boulder, CO"}
+            >
+              <li>
+                Designed custom SAP Labware software to assist in automation of data analysis and
+                reporting
+              </li>
+              <li>
+                Crafted lab report templates using SAP Crystal Reports software utilizing SQL
+                databases
+              </li>
+              <li>Programmed BASIC scripts to make calculations from lab data</li>
+              <li>Wrote software documentation for lab chemists</li>
+            </Experience>
+            <Experience
+              position="Web Designer"
+              startYear={"Dec 2015"}
+              endYear={"May 2016"}
+              jobName={"Pryzm Labs"}
+              jobDescription={"Web Designer"}
+              location={"Dallas, TX"}
+            >
+              Web Designer, 12/2015 to 05/2016 Pryzm Labs– Dallas, TX Developed online store via
+              Squarespace for electronic music and festival merchandise. Wrote blog posts on Pryzm's
+              Squarespace site promoting camera accessory merchandise
+            </Experience>
           </Cell>
         </Grid>
       </div>

@@ -6,12 +6,16 @@ class Experience extends Component {
     return (
       <Grid>
         <Cell col={4}>
-          <p>
-            {this.props.startYear} - {this.props.endYear}
-          </p>
+          <h4>{this.props.position}</h4>
+          <div style={{marginLeft: 20}}>
+            <p>
+              {this.props.startYear} - {this.props.endYear}
+            </p>
+            <p>{this.props.location}</p>
+          </div>
         </Cell>
         <Cell col={8}>
-          <h4 style={{ marginTop: "0px" }}>{this.props.jobName}</h4>
+          <h4 style={{ marginTop: "25px" }}>{this.props.jobName}</h4>
           <ul>{this.props.children}</ul>
         </Cell>
       </Grid>
