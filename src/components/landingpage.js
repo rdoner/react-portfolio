@@ -4,13 +4,12 @@ import { Grid, Cell } from "react-mdl";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
-        <Grid className="landing-grid">
-          <Cell col={12}>
-            <img src="flatironsPortrait.jpg" alt="avatar" className="avatar-img" />
+      <div>
+        <div className="landing-grid" style={{ background: 'url(flatironsPortrait.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', overflow: 'scroll', transparency: 0.5, backgroundColor: '#fff' }}>
+          <div>
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
-
+              <h1>Ryan Doner</h1>
+              <h3>Fullstack Developer</h3>
               <hr />
 
               <p>HTML/CSS | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
@@ -35,8 +34,8 @@ class Landing extends Component {
                 </a>
               </div>
             </div>
-          </Cell>
-        </Grid>
+          </div>
+        </div>
       </div>
     );
   }

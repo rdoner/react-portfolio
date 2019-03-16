@@ -51,14 +51,14 @@ class About extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: "30px", fontFamily: "Anton" }}>
+                  <ListItemContent style={{ fontSize: "30px", fontFamily: 'Source Code Pro' }}>
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (520) 664-6294
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{ fontSize: "30px", fontFamily: "Anton" }}>
+                  <ListItemContent style={{ fontSize: "30px", fontFamily: 'Source Code Pro'}}>
                     <i className="fa fa-envelope" aria-hidden="true" />
                     RyanElliotDoner@gmail.com
                   </ListItemContent>
