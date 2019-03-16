@@ -8,11 +8,11 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Grid>
+        <Grid className="resume">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="flatironsPortrait.jpg"
+                src="flatironsSquare.jpg"
                 alt="avatar"
                 style={{ height: "200px", borderRadius: "50%" }}
               />
