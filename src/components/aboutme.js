@@ -44,7 +44,7 @@ class About extends Component {
             </p>
           </Cell>
           <Cell col={5}>
-            <h2>Contact</h2>
+            <h2>Contact Me</h2>
             <hr />
 
             <div className="contact-list">
