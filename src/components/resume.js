@@ -101,9 +101,13 @@ class Resume extends Component {
               jobDescription={"Web Designer"}
               location={"Dallas, TX"}
             >
-              Web Designer, 12/2015 to 05/2016 Pryzm Labs– Dallas, TX Developed online store via
-              Squarespace for electronic music and festival merchandise. Wrote blog posts on Pryzm's
-              Squarespace site promoting camera accessory merchandise
+              <li>
+                Developed online store via Squarespace for electronic music and festival
+                merchandise.
+              </li>
+              <li>
+                Wrote blog posts on Pryzm's Squarespace site promoting camera accessory merchandise
+              </li>
             </Experience>
           </Cell>
         </Grid>
