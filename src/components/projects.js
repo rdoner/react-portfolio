@@ -23,6 +23,32 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
+          {/* this site */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "300px",
+                background: "url(reactPortfolio.png) center / cover"
+              }}
+            />
+            <CardText>
+              <h4>This site</h4>
+              I built this site using Create React App, React MDL, and React Router v4
+            </CardText>
+            <CardActions border style={{ textAlign: "center" }}>
+              <a
+                href="https://github.com/rdoner/react-portfolio"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
           {/* Project 1 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
