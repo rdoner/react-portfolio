@@ -5,9 +5,11 @@ class Landing extends Component {
   render() {
     return (
       <div>
+        {/* TODO: Change image */}
         <div className="landing-grid" style={{ background: 'url(flatironsPortrait.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', overflow: 'scroll', transparency: 0.5, backgroundColor: '#fff' }}>
           <div>
             <div className="banner-text">
+            {/* TODO: Change name, title, and skills */}
               <h1>Ryan Doner</h1>
               <h3>Fullstack Developer</h3>
               <hr />
@@ -16,6 +18,7 @@ class Landing extends Component {
 
               <div className="social-links">
                 {/* LinkedIn */}
+                {/* TODO: Change linkedIn, github, email links */}
                 <a
                   href="https://www.linkedin.com/in/ryan-doner-95161a8b/"
                   rel="noopener noreferrer"

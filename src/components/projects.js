@@ -29,19 +29,23 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "300px",
+                // TODO: change screenshot images 
                 background: "url(reactPortfolio.png) center / cover"
               }}
             />
             <CardText>
+              {/* TODO: Change name and description of project */}
               <h4>This site</h4>I built this site using Create React App, React MDL, and React
               Router v4
             </CardText>
             <CardActions border style={{ textAlign: "center" }}>
               <a
+              // TODO: Change github link
                 href="https://github.com/rdoner/react-portfolio"
                 rel="noopener noreferrer"
                 target="_blank"
               >
+              {/* TODO: Change button name if necessary */}
                 <Button colored>GitHub</Button>
               </a>
             </CardActions>
@@ -437,6 +441,7 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
+        {/* TODO: customize sections */}
           <Tab>Web</Tab>
           <Tab>Android</Tab>
           <Tab>Course Journals</Tab>

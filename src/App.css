@@ -1,6 +1,4 @@
-/* .demo-big-content: {
-  font-family: 'Source Code Pro', monospace;
-} */
+/* TODO: customize font family */
 .layout {
     font-family: 'Source Code Pro', monospace;
 }
@@ -10,38 +8,7 @@
   color: 'white';
 }
 
-/* .header-color { */
-  /* background: #833ab4;  */
-  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
-  );  */
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: #000; */
-  /* linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
-  );  */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/* } */
-
 .landing-grid {
-  /* background: #833ab4;  */
-  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #373b44, #4286f4); */
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient( */
-    /* to right,
-    #373b44,
-    #4286f4
-  );  */
-  /* background-image: url("./flatironsPortrait.jpg"); */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   width: 100%;
@@ -49,7 +16,6 @@
   display: flex;
   justify-content: center;
   box-shadow: inset 0px 0px 800px 40px #000000;
-  /* align-items: flex-end; */
 }
 
 .projects-grid {
@@ -68,7 +34,6 @@
 }
 
 /* contact page css */
-
 .contact-body {
   margin: auto;
   position: fixed;

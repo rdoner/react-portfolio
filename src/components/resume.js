@@ -12,12 +12,13 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="flatironsSquare.jpg"
+                // TODO: Change profile image
+                src="techtonicHeadshot.jpg"
                 alt="avatar"
-                style={{ height: "200px", borderRadius: "50%" }}
+                style={{ height: "300px", borderRadius: "50%" }}
               />
             </div>
-
+            {/* TODO: Change all resume info */}
             <h2 style={{ paddingTop: "2em" }}>Ryan Doner</h2>
             <h4 style={{ color: "grey" }}>Fullstack Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
@@ -44,8 +45,8 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Education</h2>
-            <Education startYear={"Sep 2018"} endYear={"Mar 2019"} schoolName="Techtonic Academy">
-              <li>Completed rigorous 6 month web development apprenticeship</li>
+            <Education startYear={"Sep 2018"} endYear={"Dec 2018"} schoolName="Techtonic Academy">
+              <li>Completed rigorous 3 month web development training</li>
               <li>Team lead for a chore coordination app built using the MERN stack</li>
             </Education>
             <Education
@@ -65,7 +66,7 @@ class Resume extends Component {
 
             <h2>Experience</h2>
             <Experience
-              startYear={"Sep 2018"}
+              startYear={"Jan 2019"}
               endYear={"Current"}
               jobName="Techtonic"
               location={"Boulder, CO"}

@@ -13,9 +13,11 @@ class App extends Component {
             <Header 
               className="header-color" 
               style={{
+                // TODO: Customize background color
               backgroundColor: '#5b7baf', 
               boxShadow: 'inset 0px -40px 58px -37px #000000'}}
               title={
+                // TODO: Customize font family
                 <Link className="home-button" style={{textDecoration: 'none', color: 'white', fontFamily: 'Source Code Pro'}} 
                   to="/">Home
                 </Link>} 
