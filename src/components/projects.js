@@ -33,8 +33,8 @@ class Projects extends Component {
               }}
             />
             <CardText>
-              <h4>This site</h4>
-              I built this site using Create React App, React MDL, and React Router v4
+              <h4>This site</h4>I built this site using Create React App, React MDL, and React
+              Router v4
             </CardText>
             <CardActions border style={{ textAlign: "center" }}>
               <a
@@ -241,11 +241,6 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          {/* <h4 style={{textAlign: 'center', marginBottom: 100}}>
-            While taking web and app development courses on Udemy, I documented everything I learned
-            as I as a reference for myself and others. Documentation is a crucial step in my
-            learning process.
-          </h4> */}
           <div className="projects-grid">
             {/* Course 1: Android & Java */}
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -383,7 +378,55 @@ class Projects extends Component {
           </div>
         </div>
       );
-    }9
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div>
+          <div className="projects-grid">
+            {/* Serverless Stack */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "300px",
+                  background: "url(scratchApp.png) center / cover"
+                }}
+              />
+              <CardText>
+                <h4>Serverless Stack Notes App</h4>I built this notes App using Serverless and React
+                on AWS. I wanted to learn more about automating microservices.
+              </CardText>
+              <CardActions border style={{ textAlign: "center" }}>
+                <a
+                  href="https://serverless-stack-notes-app.netlify.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Button colored>Live Demo</Button>
+                </a>
+                <a
+                  href="https://github.com/rdoner/serverless-stack-2-client"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Button colored>Frontend</Button>
+                </a>
+                <a
+                  href="https://github.com/rdoner/serverless-stack-2-api"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Button colored>Backend</Button>
+                </a>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
+        </div>
+      );
+    }
+    9;
   }
 
   render() {
@@ -397,6 +440,7 @@ class Projects extends Component {
           <Tab>Web</Tab>
           <Tab>Android</Tab>
           <Tab>Course Journals</Tab>
+          <Tab>AWS</Tab>
         </Tabs>
 
         <Grid>
