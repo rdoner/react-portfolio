@@ -11,7 +11,7 @@ class About extends Component {
             <h2>Ryan Doner</h2>
             <img src="flatironsPortrait.jpg" alt="avatar" style={{ width:'90%' }} />
             <p style={{ width: "90%", margin: "auto", paddingTop: "1em", textAlign: 'left' }}>
-              I am a fullstack web developer from Tucson, AZ who currently resides in Boulder,
+              I am a front end web and mobile developer from Tucson, AZ who currently resides in Boulder,
               Colorado. In 2015, I graduated from The University of Arizona with a BS in
               Neuroscience and Cognitive Sciences. In 2018, I completed a 6 month web
               developer apprenticeship program with the Techtonic Group in Boulder and was then hired fulltime as a software developer. I'm passionate about learning new

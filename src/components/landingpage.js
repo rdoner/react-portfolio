@@ -11,7 +11,7 @@ class Landing extends Component {
             <div className="banner-text">
             {/* TODO: Change name, title, and skills */}
               <h1>Ryan Doner</h1>
-              <h3>Fullstack Developer</h3>
+              <h3>Front End Developer</h3>
               <hr />
 
               <p>HTML/CSS | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>

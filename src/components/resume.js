@@ -20,10 +20,10 @@ class Resume extends Component {
             </div>
             {/* TODO: Change all resume info */}
             <h2 style={{ paddingTop: "2em" }}>Ryan Doner</h2>
-            <h4 style={{ color: "grey" }}>Fullstack Developer</h4>
+            <h4 style={{ color: "grey" }}>Front End Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Motivated fullstack web developer with a strong desire to pursue excellence and
+              Front end mobile and web developer with a strong desire to pursue excellence and
               continuously improve everyday. Looking to join a collaborative team made up of
               intellectually curious individuals who share a passion for personal development,
               mastering their craft, and who strive for balanced lives.
@@ -40,15 +40,78 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <h2>Skills</h2>
             <h6 className="skills">
-              HTML/CSS, Javascript, ReactJS, ReactNative, NodeJS, ExpressJS, MongoDB
+              JavaScript, ReactJS, React Native, Redux, NodeJS, AWS Serverless Stack, AWS Amplify,
+              MongoDB, ExpressJS, HTML/CSS, VBA, LabWare LIMS
             </h6>
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
+            <h2>Professional Experience</h2>
+            <Experience
+              startYear={"Sep 2018"}
+              endYear={"Current"}
+              jobName="Techtonic"
+              location={"Boulder, CO"}
+              position="Front End Developer"
+            >
+              <li>
+                Constructed React Native mobile app for one of the world’s largest waterpark
+                companies.
+              </li>
+              <li>
+                Designed Storybook style guide to ensure consistency across all Android and iOS
+                devices.
+              </li>
+              <li>Created a state management system using redux.</li>
+              <li>Integrated Amplitude analytics for tracking in app navigation.</li>
+              <li>
+                Debugged API timeout errors using Rollbar and created image caching function to fix
+                them.
+              </li>
+              <li>Team lead for a chore coordination app built using MERN stack.</li>
+            </Experience>
+
+            <Experience
+              position="Software Developer"
+              startYear={"Jan 2016"}
+              endYear={"June 2016"}
+              jobName={"UCANN"}
+              jobDescription={"Software Developer"}
+              location={"Golden, CO"}
+            >
+              <li>Contracted to design and implement lab results database using Excel</li>
+              <li>
+                Designed lab report template in Excel and automated report generation with a VBA
+                macro
+              </li>
+              <li>Produced documentation of database and report template usage</li>
+            </Experience>
+
+            <Experience
+              position="Software Developer"
+              startYear={"Aug 2017"}
+              endYear={"June 2018"}
+              jobName="RM3 Labs"
+              location={"Boulder, CO"}
+            >
+              <li>
+                Developed LIMS lab management software to analyze and report microbiological lab
+                data
+              </li>
+              <li>
+                Constructed macros in VBA to pull from Excel and fill data into report templates
+              </li>
+              <li>
+                Automated querying and reporting of sample information to Colorado’s METRC API
+              </li>
+              <li>
+                Composed detailed documentation for LIMS software use following ISO lab compliance
+                standards.
+              </li>
+            </Experience>
+
+            <hr style={{ borderTop: "3px solid #e22947" }} />
+
             <h2>Education</h2>
-            <Education startYear={"Sep 2018"} endYear={"Dec 2018"} schoolName="Techtonic Academy">
-              <li>Completed rigorous 3 month web development training</li>
-              <li>Team lead for a chore coordination app built using the MERN stack</li>
-            </Education>
             <Education
               startYear={"Aug 2011"}
               endYear={"May 2015"}
@@ -61,55 +124,6 @@ class Resume extends Component {
               <li>GPA: 3.78</li>
               <li>Graduate of UofA's McGuire entrepreneurship program</li>
             </Education>
-
-            <hr style={{ borderTop: "3px solid #e22947" }} />
-
-            <h2>Experience</h2>
-            <Experience
-              startYear={"Jan 2019"}
-              endYear={"Current"}
-              jobName="Techtonic"
-              location={"Boulder, CO"}
-              position="Software Developer"
-            >
-              <li>Constructed a React-Native front end for a waterpark company</li>
-              <li>Built responsive UI for Android and iOS</li>
-              <li>Performed unit tests using Jest and Enzyme</li>
-            </Experience>
-            <Experience
-              position="Software Developer"
-              startYear={"Aug 2017"}
-              endYear={"June 2018"}
-              jobName="RM3 Labs"
-              location={"Boulder, CO"}
-            >
-              <li>
-                Designed custom SAP Labware software to assist in automation of data analysis and
-                reporting
-              </li>
-              <li>
-                Crafted lab report templates using SAP Crystal Reports software utilizing SQL
-                databases
-              </li>
-              <li>Programmed BASIC scripts to make calculations from lab data</li>
-              <li>Wrote software documentation for lab chemists</li>
-            </Experience>
-            <Experience
-              position="Web Designer"
-              startYear={"Dec 2015"}
-              endYear={"May 2016"}
-              jobName={"Pryzm Labs"}
-              jobDescription={"Web Designer"}
-              location={"Dallas, TX"}
-            >
-              <li>
-                Developed online store via Squarespace for electronic music and festival
-                merchandise.
-              </li>
-              <li>
-                Wrote blog posts on Pryzm's Squarespace site promoting camera accessory merchandise
-              </li>
-            </Experience>
           </Cell>
         </Grid>
       </div>

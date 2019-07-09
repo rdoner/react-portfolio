@@ -323,7 +323,7 @@ class Projects extends Component {
                 }}
               />
               <CardText>
-                <h4>The Web Developer Bootcamp</h4>Fullstack Web Development course teaching HTML,
+                <h4>The Web Developer Bootcamp</h4>Front End Web Development course teaching HTML,
                 CSS, Javascript, NodeJS, and ExpressJS
               </CardText>
               <CardActions border style={{ textAlign: "center" }}>
